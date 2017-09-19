@@ -44,6 +44,7 @@
 			<array>
 				<string>github.com</string>
 				<string>www.github.com</string>
+				<string>https://github.com/orgs/*/dashboard</string>
 			</array>
 			<key>Include Secure Pages</key>
 			<true/>
