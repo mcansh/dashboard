@@ -1,0 +1,18 @@
+{
+  "name": "github-dashboard-filter",
+  "version": "1.0.0",
+  "description": "Filter GitHub.com",
+  "repository": "git@github.com:mcansh/github-dashboard-filter.git",
+  "author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
+  "homepage": "https://github.com/mcansh/github-dashboard-filter",
+  "license": "MIT",
+  "scripts": {
+    "test": "eslint ./"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "main": "index.js"
+}
