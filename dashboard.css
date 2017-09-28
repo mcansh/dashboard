@@ -34,11 +34,11 @@
 }
 
 .filter-checkbox {
-  position: absolute;
-  -webkit-appearance: none;
+  display: none;
 }
 
-.filter-checkbox:focus, .filter-checkbox:active {
+.filter-checkbox:focus,
+.filter-checkbox:active {
   outline: none;
 }
 
