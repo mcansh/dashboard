@@ -2,7 +2,8 @@ function rememberPreference() {
   const preference = {};
   const boxNodes = document.querySelectorAll('.filter-checkbox');
   const boxes = Array.from(boxNodes);
-  boxes.forEach(box => preference[box.id] === box.checked);
+  // eslint-disable-next-line no-return-assign
+  boxes.forEach(box => (preference[box.id] = box.checked));
   localStorage.setItem('dashboard:select', JSON.stringify(preference));
 }
 
