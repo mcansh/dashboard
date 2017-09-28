@@ -1,6 +1,6 @@
 {
   "name": "github-dashboard-filter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Filter GitHub.com",
   "repository": "git@github.com:mcansh/github-dashboard-filter.git",
   "author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
