@@ -13,10 +13,8 @@ function applyPreference() {
   preference = JSON.parse(preference);
   const boxNodes = document.querySelectorAll('.filter-checkbox');
   const boxes = Array.from(boxNodes);
-  boxes.forEach(box => {
-    // eslint-disable-next-line no-param-reassign
-    box.checked = preference ? preference[box.id] : true;
-  });
+  // eslint-disable-next-line no-return-assign, no-param-reassign
+  boxes.forEach(box => (box.checked = preference ? preference[box.id] : true));
 }
 
 function init() {
