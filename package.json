@@ -10,8 +10,8 @@
     "test": "eslint ./"
   },
   "devDependencies": {
-    "eslint": "^4.7.1",
-    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.1",
     "eslint-plugin-import": "^2.7.0"
   }
 }
